@@ -61,3 +61,13 @@ Config do manifest para Maven (pom.xml)
    
     docker run -it --rm --name kotlin-docker kotlin-docker
 
+## Cloning
+
+Após executar um clone, lembre-se de refazer o wrapper
+
+    git clone https://github.com/letsdevapps/kotlin-docker
+    
+    gradle wrapper
+
+    ./gradlew clean build
+
