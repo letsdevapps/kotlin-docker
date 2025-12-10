@@ -55,3 +55,9 @@ Config do manifest para Maven (pom.xml)
 
     java -jar app/build/libs/app.jar
 
+## Docker
+
+    docker build -t kotlin-docker .
+   
+    docker run -it --rm --name kotlin-docker kotlin-docker
+
